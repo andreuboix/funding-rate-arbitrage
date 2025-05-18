@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "funding-rate-arbitrage"
+version = "0.1.0"
+description = "Estrategia de arbitraje de funding rate para swaps perpetuos en criptomonedas"
+authors = ["SuperAI <superai@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ccxt = "^4.0.0"
+python-dotenv = "^1.0.0"
+asyncio = "^3.4.3"
+aiohttp = "^3.8.5"
+pydantic = "^2.0.0"
+fastapi = "^0.100.0"
+uvicorn = "^0.23.0"
+loguru = "^0.7.0"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pytest-asyncio = "^0.21.0"
+black = "^23.3.0"
+isort = "^5.12.0"
+mypy = "^1.3.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
