@@ -1,4 +1,4 @@
-#Funding Rate Arbitrage
+# Funding Rate Arbitrage
 
 This project implements a funding rate arbitrage strategy for perpetual swaps between multiple cryptocurrency exchanges. The strategy exploits differences in funding rates across exchanges to generate profits with market-neutral positions.
 
