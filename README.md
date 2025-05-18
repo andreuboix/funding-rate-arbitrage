@@ -60,8 +60,7 @@ The `.env` file allows you to configure:
 1. Build the image:
 ```bash
 docker build -t funding-rate-arbitrage .
-
-``` ```
+```
 
 2. Run the container:
 ```bash
