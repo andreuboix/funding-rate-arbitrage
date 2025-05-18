@@ -49,11 +49,11 @@ poetry run python -m src.backtest --start-date 2023-01-01 --end-date 2023-01-31
 
 El archivo `.env` permite configurar:
 
-- Claves API y secretos para cada exchange
+- Claves API para cada exchange
 - Pares de trading (ej. BINANCE:BTC/USDT, BYBIT:BTC-PERP)
 - Umbral mínimo de diferencial de funding rate
 - Tamaño máximo de posición por exchange
-- Límites de riesgo y parámetros de stop-loss
+- Risk limits y stop-loss
 
 ## Despliegue con Docker
 
